@@ -38,10 +38,10 @@ class TV:
     def getControl(self):
         return self.control
     
-    def setnumTV(self, numero):
+    def setNumTV(self, numero):
         self.numTV = numero
     
-    def getnumTV(self):
+    def getNumTV(self):
         return self.numTV
     
     def turnOn(self):
@@ -65,7 +65,7 @@ class TV:
         if self.volumen >= 0 and self.volumen < 7 and self.estado is True:
             self.volumen += 1
 
-    def volumenUp(self):
+    def volumenDown(self):
         if self.volumen > 0 and self.volumen <= 7 and self.estado is True:
             self.volumen -= 1
 
