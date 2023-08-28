@@ -39,7 +39,7 @@ class TV:
         return self.control
     
     def setNumTV(self, numero):
-        self.numTV = numero
+        TV._numTV = numero
     
     def getNumTV(self):
         return self.numTV
